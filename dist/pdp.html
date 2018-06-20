@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/normalize.min.css">
+      <link rel="stylesheet" href="css/customflex.css">
+      <link rel="stylesheet" href="css/index.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Latest compiled JavaScript -->
+      <script data-main="js/ts_compiled/Main_Oracle" src="js/require.js"></script>
+      <title> PDP Page</title>
+   </head>
+   <body>
+    <!--  Header  -->
+    <header>
+       <h2>Header</h2>
+    </header>
+    <!-- / Header -->
+    <!--  Breadcrumb -->
+    <div class="container-fluid">
+          <div class="breadcrumb">
+             <a href="#">Exchange</a>
+             <a href="#">Home &amp; Appliances </a>
+             <a href="#">Furniture &amp; Mattresses </a>
+             <a href="#">Living Room Furniture </a>            
+             <a href="#" class="active-link"> Sofas &amp; Couches </a>            
+          </div>
+       </div>
+
+    
+    
+    <!-- Images Area  -->
+
+  <div id="pdp">
+  <form action="odp.html" id="productDetailForm">
+      <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-5 col-xs-12">
+              <img id="main-image" src="images/adidas_1.jpg" alt="Shoes view 1">
+              <div id="product-images">
+                  <a href="#"><img class="thumbnails" src="images/adidas_33.jpg" alt="Shoes view 2"></a><a href="#"><img class="thumbnails" src="images/adidas_8.jpg" alt="Shoes view 3"></a>
+              </div>
+          </div>
+          <div class="col-lg-7 col-xs-12">
+              <div class="product-title">
+                  <h1>Adidas Outdoor Men's Caprock Trail Hiking Shoes</h1>
+                  <p class="item-details">Item #:1</p>
+                  <p class="rating"><i class="fa fa-star checked fa-2x"></i><i class="fa fa-star checked fa-2x"></i><i class="fa fa-star checked fa-2x"></i><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i> <span class="review-text"><a> Reviews(0)</a></span></p>
+              </div>
+              <!-- Product type -->
+              <div class="price-block">
+                  <del class="list-price">List Price: $1230.00</del><br>
+                  <p class="curr-price"><b>$2960.99</b></p>
+                  <span class="sale-price hotPrice">$2499.00 SALE</span><br>
+              </div>
+              <div class="btn-size">
+              <p><b>Size: </b><span class="selected"></span></p>
+              <ul class="btn-ul">
+                  <li><p class="sizeContainer"><input id="radio0" value="small" type="radio" class="sizeBtn" name="size"><label style="text-transform:capitalize;" class=" customRadio" for="radio0"><span class="firstLetter">s</span><span class="ax-hidden">mall</span></label></p></li><li><p class="sizeContainer"><input id="radio1" value="medium" type="radio" class="sizeBtn" name="size"><label style="text-transform:capitalize;" class=" customRadio" for="radio1"><span class="firstLetter">m</span><span class="ax-hidden">edium</span></label></p></li><li><p class="sizeContainer"><input id="radio2" disabled="disabled" value="large" type="radio" class="sizeBtn" name="size"><label style="text-transform:capitalize;" class="disabledSize customRadio" for="radio2"><span class="firstLetter">l</span><span class="ax-hidden">arge</span></label></p></li><li><p class="sizeContainer"><input id="radio3" value="xtra large" type="radio" class="sizeBtn" name="size"><label style="text-transform:capitalize;" class=" customRadio" for="radio3"><span class="firstLetter">x</span><span class="ax-hidden">tra large</span></label></p></li>
+              </ul>
+              </div>
+              <div class="color-area">
+                  <p class="color-title"><b>Color: </b><span class="selected"></span></p>
+                  <ul id="color-ul">
+                  <li><input id="color0" value="white" type="radio" class="colorBtn" name="color"><label class=" " for="color0" style="background:#dcdde1;"><span class="ax-hidden">white</span></label></li><li><input id="color1" value="grey" type="radio" class="colorBtn" name="color"><label class=" " for="color1" style="background:#7f8fa6;"><span class="ax-hidden">grey</span></label></li><li><input id="color2" disabled="disabled" value="blue" type="radio" class="colorBtn" name="color"><label class="disabled " for="color2" style="background:#273c75;"><span class="ax-hidden">blue</span></label></li>
+                  </ul>
+              </div>
+              <p class="quantityText"><b>Quantity:</b></p>
+              <div class="row">
+                  
+                  <div class="col-lg-4 col-xs-12 qtyBtn" id="quanitityStepper">
+                      <!-- Quantity Stepper -->
+                      
+                  <div class="qtyStpr"><label class="ax-hidden" for="quanitityStepper_qs">Quantity of Item in between 1 and 10</label><button class="minus">-<span class="ax-hidden">Decrease quantity by 1<span></span></span></button><input value="1" id="quanitityStepper_qs"><button class="plus">+<span class="ax-hidden">Increase quantity by 1<span></span></span></button></div></div>
+                  <input class="col-lg-5 col-xs-11 qtyBtn" type="submit" value="Add To Cart">
+              </div>
+              <div class="overview">
+                  <h1>Overview</h1>
+                  <p class="product-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+          </div>
+          </div>
+      </div>
+  </form>
+  </div>
+             <!-- / Quantity Stepper  -->
+
+    <!-- Tabs for PDP  -->
+    <div class="container-tab">
+       <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'Spec')">Specifications</button>
+          <button class="tablinks" onclick="openCity(event, 'RateReview')">Ratings &amp; Reviews</button>
+          <button class="tablinks" onclick="openCity(event, 'Warranty')">Warranty</button>
+       </div>
+       <div id="Spec" class="tabcontent">
+          <p>Specifications</p>
+       </div>
+       <div id="RateReview" class="tabcontent">
+          <p>Ratings  &amp; Reviews</p>
+       </div>
+       <div id="Warranty" class="tabcontent">
+          <p>Warranty</p>
+       </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+       <h2>Footer</h2>
+    </footer>
+    <script>
+       function openCity(evt, cityName) {
+       var i, tabcontent, tablinks;
+       tabcontent = document.getElementsByClassName("tabcontent");
+       for (i = 0; i < tabcontent.length; i++) {
+       tabcontent[i].style.display = "none";
+       }
+       tablinks = document.getElementsByClassName("tablinks");
+       for (i = 0; i < tablinks.length; i++) {
+       tablinks[i].className = tablinks[i].className.replace(" active", "");
+       }
+       document.getElementById(cityName).style.display = "block";
+       evt.currentTarget.className += " active";
+       }
+       
+    </script>
+    <!-- Quantity Stepper Code  -->
+    <script>
+       function incrementValue()
+       {
+       var value = parseInt(document.getElementById('number').value, 10);
+       value = isNaN(value) ? 0 : value;
+       if(value<10){
+           value++;
+               document.getElementById('number').value = value;
+       }
+       }
+       function decrementValue()
+       {
+       var value = parseInt(document.getElementById('number').value, 10);
+       value = isNaN(value) ? 0 : value;
+       if(value>1){
+           value--;
+               document.getElementById('number').value = value;
+       }
+       
+       }
+    </script>
+    <!-- <script>
+       function submitHandler() {
+           alert("Your Item has been added to cart Successfully.");
+       }
+    </script> -->
+    <script>
+          function myFunction() {
+              var x = document.getElementById("cart-alert");
+              x.className = "show";
+              setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+          }
+          </script>
+ 
+</body>
+</html>

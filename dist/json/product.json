@@ -1,0 +1,26 @@
+[
+    {
+        "name":"mango",
+        "color":"yellow"
+    },
+    {
+        "name":"gauva",
+        "color":"green"
+    },
+    {
+        "name":"apple",
+        "color":"red"
+    },
+    {
+        "name":"banana",
+        "color":"green"
+    },
+    {
+        "name":"pomogranate",
+        "color":"maroon"
+    },
+    {
+        "name":"cashew",
+        "color":"white"
+    }
+]

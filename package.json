@@ -1,0 +1,27 @@
+{
+  "name": "oracle_assignment_src",
+  "version": "1.0.0",
+  "description": "Static htmls for prototype",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "app": "concurrent --kill-others \"npm run tsc\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "lite": "lessc-watch src/css/index.less dist/css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qalogi/OracleAssignment.git"
+  },
+  "author": "Koustubh Desai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qalogi/OracleAssignment/issues"
+  },
+  "homepage": "https://github.com/qalogi/OracleAssignment#readme",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "less": "^3.0.1",
+    "simple-lessc-watch": "^0.1.0"
+  }
+}

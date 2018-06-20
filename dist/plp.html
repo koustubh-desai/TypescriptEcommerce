@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- Font Awesome  -->
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/normalize.min.css">
+      <link rel="stylesheet" href="css/customflex.css">
+      <link rel="stylesheet" href="css/index.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script data-main="js/ts_compiled/Main_Oracle" src="js/require.js"></script>
+      <title> PLP Page</title>
+   </head>
+   <body>
+    <!--  Header  -->
+    <header>
+       <h2>Header</h2>
+    </header>
+    <!-- / Header -->
+    <!-- Main Section -->
+    <div class="main-section">
+    <!--  Breadcrumb -->
+    <div class="container-fluid">
+       <div class="breadcrumb">
+          <a href="#">Exchange</a>
+          <a href="#">Shoes</a>
+          <a href="#">Athletic Shoes</a>
+          <a href="#" class="active-link">Men's Athletic Shoes</a>            
+      </div>
+    </div>
+    <!--  Content Area  -->
+    <div class="container-fluid">
+                <h1 class="plp-heading">Men's Athletic Shoes</h1>
+      </div>
+      
+    <!-- Hamburger for Mobile Devices  -->
+    <div id="hamburger">
+      <a href="#" name="toggler">Filter</a>
+      <ul id="optionList">
+          <li>
+              <a href="#" name="toggler">Brand</a>
+              <ul id="brandOnMobile" class="filterByBrand">
+          <li><input checked="true" id="361 degrees" value="361 degrees" type="checkbox">
+          <label for="361 degrees"><span class="ax-hidden">Brand Name:</span>361 degrees</label>
+          </li>
+          
+          <li><input checked="true" id="360 degree" value="360 degree" type="checkbox">
+          <label for="360 degree"><span class="ax-hidden">Brand Name:</span>360 degree</label>
+          </li>
+          
+          <li><input checked="true" id="adidas" value="adidas" type="checkbox">
+          <label for="adidas"><span class="ax-hidden">Brand Name:</span>adidas</label>
+          </li>
+          </ul>
+          </li>
+          <li>
+              <a href="#" name="toggler">Rating</a>
+              <ul id="ratingOnMobile" class="filterByRating">
+          <li><input checked="true" id="rate1" value="1" type="checkbox">
+          <label for="rate1"><span class="ax-hidden">Rating:1</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+          </label>
+          </li>
+          
+          <li><input checked="true" id="rate2" value="2" type="checkbox">
+          <label for="rate2"><span class="ax-hidden">Rating:2</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+          </label>
+          </li>
+          
+          <li><input checked="true" id="rate3" value="3" type="checkbox">
+          <label for="rate3"><span class="ax-hidden">Rating:3</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+          </label>
+          </li>
+          
+          <li><input checked="true" id="rate4" value="4" type="checkbox">
+          <label for="rate4"><span class="ax-hidden">Rating:4</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star" aria-hidden="true"></i>
+          </label>
+          </li>
+          
+          <li><input checked="true" id="rate5" value="5" type="checkbox">
+          <label for="rate5"><span class="ax-hidden">Rating:5</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i>
+          </label>
+          </li>
+          </ul>
+          </li>
+      </ul>
+    </div>
+
+    <!--  Aside Section - Filter Nav Begin -->
+    <div class="main-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                  <ul class="col-xs-12 col-sm-2 col-md-2 col-lg-2 brand-section">
+                          <!--  Brand Section Begin -->
+                          <li>
+                              <h2>Brand</h2>
+                              <ul id="brandFilter" class="filterByBrand">
+          <li><input checked="true" id="361 degrees" value="361 degrees" type="checkbox">
+          <label for="361 degrees"><span class="ax-hidden">Brand Name:</span>361 degrees</label>
+          </li>
+          
+          <li><input checked="true" id="360 degree" value="360 degree" type="checkbox">
+          <label for="360 degree"><span class="ax-hidden">Brand Name:</span>360 degree</label>
+          </li>
+          
+          <li><input checked="true" id="adidas" value="adidas" type="checkbox">
+          <label for="adidas"><span class="ax-hidden">Brand Name:</span>adidas</label>
+          </li>
+          </ul>
+                          </li> 
+                          <li>
+                              <h2>Rating</h2>
+                              <ul id="rateFilter" class="filterByRating">
+          <li><input checked="true" id="rate1" value="1" type="checkbox">
+          <label for="rate1"><span class="ax-hidden">Rating:1</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+          </label>
+          </li>
+          
+          <li><input checked="true" id="rate2" value="2" type="checkbox">
+          <label for="rate2"><span class="ax-hidden">Rating:2</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+          </label>
+          </li>
+          
+          <li><input checked="true" id="rate3" value="3" type="checkbox">
+          <label for="rate3"><span class="ax-hidden">Rating:3</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+          </label>
+          </li>
+          
+          <li><input checked="true" id="rate4" value="4" type="checkbox">
+          <label for="rate4"><span class="ax-hidden">Rating:4</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star" aria-hidden="true"></i>
+          </label>
+          </li>
+          
+          <li><input checked="true" id="rate5" value="5" type="checkbox">
+          <label for="rate5"><span class="ax-hidden">Rating:5</span>
+          <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i>
+          </label>
+          </li>
+          </ul> 
+                          </li> 
+                      </ul>
+                    <!--  Aside Section - Filter Nav End -->
+                    <!-- Main Content Area - PLP  -->
+                      <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                          <div class="product-group-heading">
+                              <div class="heading">
+                                  <p>Viewing 1-4 of 4</p>
+                              </div>
+                              <form id="sortby">
+                                  <label id="sortby-label">Sort </label>
+                                  <select name="Recommended" id="select-sort">
+                                      <option value="" selected="" disabled="" hidden="">Select
+                                          
+                                      </option>
+                                      <option value="A-Z">A-Z</option>
+                                      <option value="Z-A">Z-A</option>
+                                      <option value="price-lh">Price - Low to High</option>
+                                      <option value="price-hl">Price - High to Low</option>
+                                      <option value="rated-hl">Highest Rated First</option>
+                                  </select>
+                              </form>
+                          </div>
+              
+                          <section id="plp-listing"><ul><li class="product-col" data-id="1">
+          <a href="pdp.html?id=1">
+          <img alt="images/Hiking shoes" src="images/product-image_0.png">
+          <span class="product-details">Adidas Outdoor Men's Caprock Trail Hiking Shoes</span>
+          
+          <del>$ 2499.00</del>
+          <span class="curr-price">$ 2960.99</span>
+          <span class="">$1549.00 - $1230.00 </span>
+          <span>&nbsp;</span>
+      
+          <span><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> (3)</span>
+          </a>
+      </li><li class="product-col" data-id="3">
+          <a href="pdp.html?id=3">
+          <img alt="images/Hiking shoes" src="images/product-image_0.png">
+          <span class="product-details">Adidas Outdoor Men's Caprock Trail Hiking Shoes</span>
+          
+          <del>$ 2499.00</del>
+          <span class="curr-price">$ 2960.99</span>
+          <span class="hotPrice">$1547.00 - $1230.00 SALE</span>
+          
+      
+          <span><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> (1)</span>
+          </a>
+      </li><li class="product-col" data-id="5">
+          <a href="pdp.html?id=5">
+          <img alt="images/Hiking shoes" src="images/product-image_0.png">
+          <span class="product-details">Adidas Outdoor Men's Caprock Trail Hiking Shoes</span>
+          
+          <del>$ 2499.00</del>
+          <span class="curr-price">$ 2960.99</span>
+          <span class="hotPrice">$1547.00 - $1230.00 SALE</span>
+          
+      
+          <span><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> (1)</span>
+          </a>
+      </li><li class="product-col" data-id="2">
+          <a href="pdp.html?id=2">
+          <img alt="images/Hiking shoes" src="images/product-image_1.png">
+          <span class="product-details">Nike Men's Air Force 1 Running Shoes</span>
+          
+          <del>$ 2499.00</del>
+          <span class="curr-price">$ 2960.99</span>
+          <span class="hotPrice">$1546.00 - $1230.00 SALE</span>
+          
+      
+          <span><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i> (4)</span>
+          </a>
+      </li><li class="product-col" data-id="4">
+          <a href="pdp.html?id=4">
+          <img alt="images/Hiking shoes" src="images/product-image_1.png">
+          <span class="product-details">Nike Men's Air Force 1 Running Shoes</span>
+          
+          <del>$ 2499.00</del>
+          <span class="curr-price">$ 2960.99</span>
+          <span class="hotPrice">$1548.00 - $1230.00 SALE</span>
+          
+      
+          <span><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> (2)</span>
+          </a>
+      </li><li class="product-col" data-id="6">
+          <a href="pdp.html?id=6">
+          <img alt="images/Hiking shoes" src="images/product-image_1.png">
+          <span class="product-details">Nike Men's Air Force 1 Running Shoes</span>
+          
+          <del>$ 2499.00</del>
+          <span class="curr-price">$ 2960.99</span>
+          <span class="hotPrice">$1546.00 - $1230.00 SALE</span>
+          
+      
+          <span><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i> (4)</span>
+          </a>
+      </li></ul></section>
+                      </div>
+                  </div>
+              
+            </div>
+        </div>
+      </div>
+      <!-- End Main Section -->
+        <!-- Footer -->
+    <footer>
+       <h2>Footer</h2>
+    </footer>
+  
+ 
+</body>
+</html>
